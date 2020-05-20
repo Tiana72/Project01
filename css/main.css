@@ -1,0 +1,57 @@
+.slider {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.item {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  flex-basis: 25%;
+  transition: 0.5s;
+}
+
+.item:hover {
+  flex-basis: 70%;
+}
+
+.item span {
+  font-family: 'Lobster Two', cursive;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 4px #ffffff dotted;
+  padding: 10px 30px;
+}
+
+.item-1 {
+  background-image: url(../img/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-2 {
+  background-image: url(../img/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-3 {
+  background-image: url(../img/03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-4 {
+  background-image: url(../img/04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=maps/main.css.map */
